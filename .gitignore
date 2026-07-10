@@ -1,0 +1,4 @@
+.env
+bot.db
+photos/
+__pycache__/

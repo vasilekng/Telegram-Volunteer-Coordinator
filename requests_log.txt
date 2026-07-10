@@ -1,0 +1,24 @@
+2026-07-09 18:13:49,449 - root - INFO - Бот запущен и готов к работе!
+2026-07-09 18:14:10,792 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000211B39B5AC0>
+2026-07-09 18:15:45,520 - root - INFO - Бот запущен и готов к работе!
+2026-07-09 18:16:06,767 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000023905539E20>
+2026-07-09 18:21:13,359 - root - INFO - Бот запущен и готов к работе!
+2026-07-09 18:21:34,621 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000013F2F1FDD30>
+2026-07-09 18:27:05,465 - root - INFO - Бот запущен и соединяется с Telegram...
+2026-07-09 18:27:26,723 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000023338979820>
+2026-07-09 18:30:33,543 - root - INFO - Бот запущен и соединяется с Telegram...
+2026-07-09 18:30:54,791 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000271427FDC70>
+2026-07-09 18:36:09,081 - root - INFO - Бот запущен и соединяется с Telegram...
+2026-07-09 18:36:30,448 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000023DBD62DEB0>
+2026-07-09 19:00:08,373 - root - INFO - Бот успешно запущен и ожидает сообщения!
+2026-07-09 19:00:29,746 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000244BBE97140>
+2026-07-09 19:08:53,577 - root - INFO - Бот успешно запущен и ожидает сообщения!
+2026-07-09 19:09:14,980 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000025476FD32F0>
