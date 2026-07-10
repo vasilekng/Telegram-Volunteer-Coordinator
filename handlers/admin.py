@@ -32,8 +32,7 @@ async def view_requests(message: Message):
             f"📞 <b>Контакты:</b> {req['contacts']}"
         )
         
-        # --- ИСПРАВЛЕНИЕ ЗДЕСЬ ---
-        # Мы точно знаем, что картинка всегда называется "photos/{номер_заявки}.jpg"
+
         expected_photo_path = f"photos/{req['id']}.jpg"
         
         keyboard = get_admin_request_kb(req['id'])
@@ -41,7 +40,7 @@ async def view_requests(message: Message):
         # Проверяем, существует ли физически такой файл
         if os.path.exists(expected_photo_path):
             photo = FSInputFile(expected_photo_path)
-            # Отправляем ФОТОГРАФИЮ, а текст делаем подписью к ней (caption)
+            # Отправляем ФОТОГРАФИЮ, а текст делаем подписью к ней
             await message.answer_photo(photo=photo, caption=text, parse_mode="HTML", reply_markup=keyboard)
         else:
             # Если файла нет (пользователь нажал "Пропустить"), отправляем только текст

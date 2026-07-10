@@ -1,9 +1,9 @@
 import asyncio
 import logging
 import sys
-import os # <--- ДОБАВИЛИ ИМПОРТ OS
+import os 
 from aiogram import Bot, Dispatcher
-from aiogram.client.session.aiohttp import AiohttpSession # <--- ДОБАВИЛИ
+from aiogram.client.session.aiohttp import AiohttpSession 
 
 from handlers import user_request, admin
 
@@ -23,7 +23,6 @@ logging.basicConfig(
 async def main():
     await db_start()
 
-    # === МАГИЯ ДЛЯ PYTHONANYWHERE ===
     # Проверяем, запущен ли код на сервере PythonAnywhere
     if "PYTHONANYWHERE_DOMAIN" in os.environ:
         # Если да, используем их обязательный прокси
